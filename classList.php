@@ -9,6 +9,17 @@
 	<div id="credcounter"></div>
 
 	<form action="" id="classlist">
+    <div id="userinfo">
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name">
+      <label for="email">Best Email: </label>
+      <input type="email" name="email" id="email">
+      <label for="contactnum">Best Contact Number: </label>
+      <input type="number" name="contactnum" id="connectnum">
+      <label for="campusid">Best Campus ID: </label>
+      <input type="text" name="campusid" id="campusid">
+    </div>
+  
 		<!-- class path tree -->
 		<div id="classtree"> 
 
@@ -16,69 +27,124 @@
 			<div id="compsci">
 				<div id="cs200"> 
 					<!-- CMSC 200 level courses -->
-					<input type="checkbox" class="" name="course[]" value="cmsc201">CMSC 201
-					<input type="checkbox" class="" name="course[]" value="cmsc202">CMSC 202
-					<input type="checkbox" class="" name="course[]" value="cmsc203">CMSC 203
-					<input type="checkbox" class="" name="course[]" value="cmsc232">CMSC 232
-					<input type="checkbox" class="" name="course[]" value="cmsc291">CMSC 291
-					<input type="checkbox" class="" name="course[]" value="cmsc299">CMSC 299
+          <label for="cmsc201">CMSC 201</label>
+					<input type="checkbox" class="" name="course[]" id="cmsc201" value="cmsc201">
+					<label for="cmsc202">CMSC 202</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc202" value="cmsc202">
+					<label for="cmsc203">CMSC 203</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc203" value="cmsc203">
+					<label for="cmsc232">CMSC 232</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc232" value="cmsc232">
+					<label for="cmsc291">CMSC 291</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc291" value="cmsc291">
+					<label for="cmsc299">CMSC 299</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc299" value="cmsc299">
 				</div>
 				<br>
 				<div id="cs300"> 
-					<!-- CMSC 300 level courses --> 
-					<input type="checkbox" class="" name="course[]" value="cmsc304">CMSC 304
-					<input type="checkbox" class="" name="course[]" value="cmsc313">CMSC 313
-					<input type="checkbox" class="" name="course[]" value="cmsc331">CMSC 331
-					<input type="checkbox" class="" name="course[]" value="cmsc341">CMSC 341
-					<input type="checkbox" class="" name="course[]" value="cmsc352">CMSC 352
-					<input type="checkbox" class="" name="course[]" value="cmsc391">CMSC 391
+					<!-- CMSC 300 level courses -->
+          <label for="cmsc304">CMSC 304</label> 
+					<input type="checkbox" class="" name="course[]" id="cmsc304" value="cmsc304">
+					<label for="cmsc313">CMSC 313</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc313" value="cmsc313">
+					<label for="cmsc331">CMSC 331</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc331" value="cmsc331">
+					<label for="cmsc341">CMSC 341</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc341" value="cmsc341">
+					<label for="cmsc352">CMSC 352</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc352" value="cmsc352">
+					<label for="cmsc391">CMSC 391</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc391" value="cmsc391">
 				</div>
         <br>
 				<div id="cs400"> 
 					<!-- CMSC 400 level courses -->
-				  <input type="checkbox" class="" name="course[]" value="cmsc404">CMSC 403
-          <input type="checkbox" class="" name="course[]" value="cmsc411">CMSC 411
-          <input type="checkbox" class="" name="course[]" value="cmsc421">CMSC 421
-          <input type="checkbox" class="" name="course[]" value="cmsc426">CMSC 426
-          <input type="checkbox" class="" name="course[]" value="cmsc427">CMSC 427
-          <input type="checkbox" class="" name="course[]" value="cmsc431">CMSC 431
-          <input type="checkbox" class="" name="course[]" value="cmsc432">CMSC 432
-          <input type="checkbox" class="" name="course[]" value="cmsc433">CMSC 433
-          <input type="checkbox" class="" name="course[]" value="cmsc435">CMSC 435
-          <input type="checkbox" class="" name="course[]" value="cmsc436">CMSC 436
-          <input type="checkbox" class="" name="course[]" value="cmsc437">CMSC 437
-          <input type="checkbox" class="" name="course[]" value="cmsc441">CMSC 441
-          <input type="checkbox" class="" name="course[]" value="cmsc442">CMSC 442
-          <input type="checkbox" class="" name="course[]" value="cmsc443">CMSC 443
-          <input type="checkbox" class="" name="course[]" value="cmsc446">CMSC 446
-          <input type="checkbox" class="" name="course[]" value="cmsc447">CMSC 447
-          <input type="checkbox" class="" name="course[]" value="cmsc448">CMSC 448
-          <input type="checkbox" class="" name="course[]" value="cmsc451">CMSC 451
-          <input type="checkbox" class="" name="course[]" value="cmsc452">CMSC 452
-          <input type="checkbox" class="" name="course[]" value="cmsc453">CMSC 453
-          <input type="checkbox" class="" name="course[]" value="cmsc455">CMSC 455
-          <input type="checkbox" class="" name="course[]" value="cmsc456">CMSC 456
-          <input type="checkbox" class="" name="course[]" value="cmsc457">CMSC 457
-          <input type="checkbox" class="" name="course[]" value="cmsc461">CMSC 461
-          <input type="checkbox" class="" name="course[]" value="cmsc465">CMSC 465
-          <input type="checkbox" class="" name="course[]" value="cmsc466">CMSC 466
-          <input type="checkbox" class="" name="course[]" value="cmsc471">CMSC 471
-          <input type="checkbox" class="" name="course[]" value="cmsc473">CMSC 473
-          <input type="checkbox" class="" name="course[]" value="cmsc475">CMSC 475
-          <input type="checkbox" class="" name="course[]" value="cmsc476">CMSC 476
-          <input type="checkbox" class="" name="course[]" value="cmsc477">CMSC 477
-          <input type="checkbox" class="" name="course[]" value="cmsc478">CMSC 478
-          <input type="checkbox" class="" name="course[]" value="cmsc479">CMSC 479
-          <input type="checkbox" class="" name="course[]" value="cmsc481">CMSC 483
-          <input type="checkbox" class="" name="course[]" value="cmsc483">CMSC 483
-          <input type="checkbox" class="" name="course[]" value="cmsc484">CMSC 484
-          <input type="checkbox" class="" name="course[]" value="cmsc486">CMSC 486
-          <input type="checkbox" class="" name="course[]" value="cmsc487">CMSC 487
-          <input type="checkbox" class="" name="course[]" value="cmsc491">CMSC 491
-          <input type="checkbox" class="" name="course[]" value="cmsc493">CMSC 493
-          <input type="checkbox" class="" name="course[]" value="cmsc495">CMSC 495
-          <input type="checkbox" class="" name="course[]" value="cmsc498">CMSC 498
-          <input type="checkbox" class="" name="course[]" value="cmsc499">CMSC 499
+          <label for="cmsc404">CMSC 404</label>
+				  <input type="checkbox" class="" name="course[]" id="cmsc404" value="cmsc404">
+          <label for="cmsc411">CMSC 411</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc411" value="cmsc411">
+          <label for="cmsc421">CMSC 421</label>
+          <input type="checkbox" class="" name="course[]" id="cmsc421" value="cmsc421">
+          <label for="cmsc426">CMSC 426 </label>         
+          <input type="checkbox" class="" name="course[]" id="cmsc426" value="cmsc426">
+          <label for="cmsc427">CMSC 427  </label>
+          <input type="checkbox" class="" name="course[]" id="cmsc427" value="cmsc427">
+          <label for="cmsc431">CMSC 431</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc431" value="cmsc431">
+          <label for="cmsc432">CMSC 432</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc432" value="cmsc432">
+          <label for="cmsc433">CMSC 433</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc433" value="cmsc433">
+          <label for="cmsc435">CMSC 435</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc435" value="cmsc435">
+          <label for="cmsc436">CMSC 436</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc436" value="cmsc436">
+          <label for="cmsc437">CMSC 437</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc437" value="cmsc437">
+          <label for="cmsc441">CMSC 441</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc441" value="cmsc441">
+          <label for="cmsc442">CMSC 442</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc442" value="cmsc442">
+          <label for="cmsc443">CMSC 443</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc443" value="cmsc443">
+          <label for="cmsc446">CMSC 446</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc446" value="cmsc446">
+          <label for="cmsc447">CMSC 447</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc447" value="cmsc447">
+          <label for="cmsc448">CMSC 448</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc448" value="cmsc448">
+          <label for="cmsc451">CMSC 451</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc451" value="cmsc451">
+          <label for="cmsc452">CMSC 452</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc452" value="cmsc452">
+          <label for="cmsc453">CMSC 453</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc453" value="cmsc453">
+          <label for="cmsc455">CMSC 455</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc455" value="cmsc455">
+          <label for="cmsc456">CMSC 456</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc456" value="cmsc456">
+          <label for="cmsc457">CMSC 457</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc457" value="cmsc457">
+          <label for="cmsc461">CMSC 461</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc461" value="cmsc461">
+          <label for="cmsc465">CMSC 465</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc465" value="cmsc465">
+          <label for="cmsc466">CMSC 466</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc466" value="cmsc466">
+          <label for="cmsc471">CMSC 471</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc471" value="cmsc471">
+          <label for="cmsc473">CMSC 473</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc473" value="cmsc473">
+          <label for="cmsc475">CMSC 475</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc475" value="cmsc475">
+          <label for="cmsc476">CMSC 476</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc476" value="cmsc476">
+          <label for="cmsc477">CMSC 477</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc477" value="cmsc477">
+          <label for="cmsc478">CMSC 478</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc478" value="cmsc478">
+          <label for="cmsc479">CMSC 479</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc479" value="cmsc479">
+          <label for="cmsc483">CMSC 483</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc481" value="cmsc481">
+          <label for="cmsc483">CMSC 483</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc483" value="cmsc483">
+          <label for="cmsc484">CMSC 484</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc484" value="cmsc484">
+          <label for="cmsc486">CMSC 486</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc486" value="cmsc486">
+          <label for="cmsc487">CMSC 487</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc487" value="cmsc487">
+          <label for="cmsc491">CMSC 491</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc491" value="cmsc491">
+          <label for="cmsc493">CMSC 493</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc493" value="cmsc493">
+          <label for="cmsc495">CMSC 495</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc495" value="cmsc495">
+          <label for="cmsc498">CMSC 498</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc498" value="cmsc498">
+          <label for="cmsc499">CMSC 499</label>  
+          <input type="checkbox" class="" name="course[]" id="cmsc499" value="cmsc499">
 				</div>
 			</div>
 			
