@@ -1,0 +1,54 @@
+body {	background-color: #EEEEEE;
+}
+h2{
+	padding:9px;
+}
+
+img.header{
+	width: 100%;
+}
+#userinfo{
+	background-color:black;
+	color:white;
+	padding:7.5px;
+	margin-top:15px;
+	border-radius:5px;
+}
+#classtree{
+	background-color:rgba(245,202,92,1);
+	border-radius: 5px;
+	margin:10px;
+
+}
+.course{
+	display: inline-block;
+	padding: 8px 4px 8px 4px;
+	background-color: #66AA44;
+	color: #FFFFFF;
+	margin: 5px;
+	border-radius: 5px;
+	border-color: red;
+	border-width:4px;
+}
+.course:hover{
+	background-color: #77CC66;
+/*	border: 2px solid black;*/
+}
+.hiddencourse{
+	display:none;
+}
+#cs200:hover{
+	background-color: rgba(255,222,112,1);
+	
+}
+#cs300:hover{
+	background-color: rgba(255,222,112,1);
+	
+}
+#cs400:hover{
+	background-color: rgba(255,222,112,1);
+	
+}
+input[type=checkbox]{
+	display: none;
+}
