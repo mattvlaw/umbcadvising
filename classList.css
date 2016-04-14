@@ -1,11 +1,45 @@
 body {	background-color: #EEEEEE;
+	padding:2%;
 }
 h2{
-	padding:9px;
+	padding:5px;
 }
-
-img.header{
+p{
+	padding:5px;
+}
+td{
+  text-align: center;
+}
+hr{
+  border: 1px solid black;
+}
+.header{
 	width: 100%;
+/*	background-color:white;*/
+}
+.bold{
+  font-weight: bold;
+}
+.bolderr{
+  font-weight: bold;
+  color: red;
+}
+.heading{
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+.error{
+  margin-top: 0.65em;
+  background-color:white;
+  border: 5px solid red;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px grey;
+  padding-left: 25px;
+  padding-bottom: 25px;
 }
 #userinfo{
 	background-color:black;
@@ -15,10 +49,36 @@ img.header{
 	border-radius:5px;
 }
 #classtree{
-	background-color:rgba(245,202,92,1);
+	background-color: rgba(245,202,92,1);
 	border-radius: 5px;
 	margin:10px;
+	width:60%;
+	float:left;
+	box-shadow:5px 5px 5px grey;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-right:10px;
 
+}
+#credcounter{
+	width:25%;
+	float:left;
+	background-color:white;
+	border-radius: 5px;
+	margin-top:10px;
+	margin-left:5px;
+	padding:10px;
+	box-shadow:5px 5px 5px grey;
+}
+#courseinfo{
+	width:25%;
+	float:left;
+	background-color:white;
+	border-radius: 5px;
+	margin-top:10px;
+	margin-left:5px;
+	padding:10px;
+	box-shadow:5px 5px 5px grey;
 }
 .course{
 	display: inline-block;
@@ -29,13 +89,49 @@ img.header{
 	border-radius: 5px;
 	border-color: red;
 	border-width:4px;
+	box-shadow: 2px 2px 1px grey;
 }
 .course:hover{
 	background-color: #77CC66;
 /*	border: 2px solid black;*/
 }
+
 .hiddencourse{
 	display:none;
+}
+.coursetaken{
+	display: inline-block;
+	padding: 8px 4px 8px 4px;
+	background-color: red;
+	color: #FFFFFF;
+	margin: 5px;
+	border-radius: 5px;
+	border-color: red;
+	border-width:4px;
+	box-shadow: 2px 2px 1px grey;
+}
+#submitbutton::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+#submitbutton{
+	display: inline-block;
+	float:right;
+	padding: 10px 6px 10px 6px;
+	background-color: steelblue;
+	color: #FFFFFF;
+	margin: 15px;
+	border: 0 none;
+	border-radius: 5px;
+	border-color: lightgrey;
+	border-width: 4px;
+	font-size:1em;
+	box-shadow: 4px 4px 1px grey;
+
+}
+#submitbutton:hover{
+    background-color: #6a9bc3;
+    color: #FFFFFF;
 }
 #cs200:hover{
 	background-color: rgba(255,222,112,1);
@@ -49,6 +145,61 @@ img.header{
 	background-color: rgba(255,222,112,1);
 	
 }
+#math:hover{
+	background-color: rgba(255,222,112,1);
+	
+}
+
 input[type=checkbox]{
 	display: none;
+}
+#reqcs{
+	word-break: normal;
+}
+#coursedescription{
+	word-break:break-word;
+	overflow:scroll;
+}
+.fancyLink{
+   border: solid 2px #aaa;
+   border-radius: 3x;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   background-color: gold;
+   color: #000;
+   text-decoration: none;
+   font-weight: bold;
+   margin: 10px 3px 10px 3px;
+   padding: 3px;
+   display: inline-block;
+}
+.fancyLink:hover{ 
+    color: gold;
+    background-color: black; 
+}
+#summary{
+    align: center:
+    border-collapse: collapse;
+    width: 100%;
+}
+#summary tr:nth-child(even){
+    background-color: rgba(255,222,112,1);
+}
+.leftTable{
+    text-align:left;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+#summary th {
+    background-color: black;
+    color: white;
+}
+#summary th, td{
+    text-align: left;
+    padding: 8px;
+}
+.boldTot{
+  font-weight: bold;
+  background-color: black;
+  color: white;
 }
